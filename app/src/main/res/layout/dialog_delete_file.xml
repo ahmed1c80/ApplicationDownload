@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="20sp"
+    android:layout_gravity="center"
+    android:layout_width="400dp"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_weight="0"
+        app:cardElevation="10sp"
+android:layout_gravity="center"
+        android:layout_width="165.0dip"
+        android:layout_height="165.0dip"
+        app:cardCornerRadius="80.0dip"
+        android:id="@+id/card_img"
+        android:layout_margin="3dp">
+        <RelativeLayout
+            android:layout_width="166.0dip"
+            android:orientation="horizontal"
+            android:layout_height="166.0dip"
+            android:gravity="center">
+
+            <ImageView
+                android:src="@drawable/ic_launcher_round_down"
+                android:layout_width="166.0dip"
+                android:layout_height="166.0dip"
+                android:id="@+id/img"
+                android:radius="82.0dip"
+                android:scaleType="centerCrop"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="A"/>
+
+            <ImageView
+                android:layout_centerInParent="true"
+                android:layout_width="40.0dip"
+                android:layout_height="40.0dip"
+                android:id="@+id/img_type"
+                android:radius="52.0dip"
+                android:scaleType="centerCrop"
+                android:gravity="center"
+
+                />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+<TextView
+    android:fontFamily="@font/kufi"
+    android:textSize="25sp"
+    android:text="@string/Do_you_want_to_delete_the_file"
+    android:layout_margin="5dip"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/txt_msg">
+
+</TextView>
+
+    <CheckBox
+        android:fontFamily="@font/kufi"
+        android:layout_margin="5dip"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/check_delete"
+        android:text="@string/Do_you_want_to_delete_the_source_file">
+
+    </CheckBox><LinearLayout
+    android:layout_margin="5sp"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+    <Button
+        android:fontFamily="@font/kufi"
+        android:layout_margin="5sp"
+        android:id="@+id/buttonOk"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/shape_btn_default"
+        android:text="@string/str_ok"
+        android:textColor="@android:color/white" />
+    <Button
+        android:fontFamily="@font/kufi"
+        android:layout_margin="5sp"
+        android:id="@+id/buttonCancel"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/shape_btn_delete"
+        android:text="@string/str_cancel"
+        android:textColor="@android:color/white" />
+</LinearLayout>
+</LinearLayout>

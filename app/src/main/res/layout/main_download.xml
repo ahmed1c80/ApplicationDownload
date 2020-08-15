@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/lay_vid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5sp"
+        android:orientation="vertical">
+        <TextView
+            android:gravity="center"
+            android:fontFamily="@font/kufi"
+            android:layout_margin="5sp"
+            android:id="@+id/btn_download"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/shape_btn_default"
+            android:text="تحميـــل"
+            android:textColor="@android:color/white" />
+    <VideoView
+        android:id="@+id/vid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    </LinearLayout>
+<ProgressBar
+    android:id="@+id/progress"
+    android:visibility="gone"
+    android:layout_width="100dip"
+    android:layout_height="100dip"
+    android:layout_gravity="center"></ProgressBar>
+    <TextView
+        android:textIsSelectable="true"
+
+        android:scrollbars="vertical"
+    android:gravity="top"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/ed_source"/>
+
+</LinearLayout>

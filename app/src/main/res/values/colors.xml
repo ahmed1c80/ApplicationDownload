@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F36B11</color>
+    <color name="colorPrimaryDark">#F36B11</color>
+    <color name="colorAccent">#ff159957</color>
+
+    <color name="mygra16">#576EE3</color>
+    <color name="mygra1">#F36B11</color>
+    <color name="mygra2">#ff159957</color>
+    <color name="customAccent">#ffffc400</color>
+    <color name="red">#fff44336</color>
+
+    <color name="packages_bg_start">#00766b</color>
+    <color name="packages_bg_end">#144C69</color>
+</resources>

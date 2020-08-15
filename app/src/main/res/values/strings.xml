@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">تنزيل فيديوهات</string>
+    <string name="title_home">مقترحات</string>
+    <string name="title_dashboard">التحميلات</string>
+    <string name="title_notifications">جاري التحميل</string>
+    <string name="pastelink">رابط التحميل</string>
+    <string name="download">تحميل</string>
+    <string name="click_string">تم الدفع شكرا لك</string>
+    <string name="buy_string">الدفع الآن</string>
+    <string name="riush_message_notification_title_template">Riush message: %1$s</string>
+
+    <!-- TODO: remove this placeholder text -->
+    <string name="riush_message_notification_placeholder_text_template">You said %1$s and lorem
+        ipsum dolor sit amet, consectetur adipiscing elit. Etiam non enim magna. Morbi dictum, velit
+        vel semper venenatis, magna odio volutpat velit, at ullamcorper nulla lacus sed turpis.
+        Pellentesque vitae metus elit, nec tincidunt tellus. Integer sed nisl sem, ullamcorper
+        ornare lacus. Duis ac mauris sed massa congue volutpat. Donec sed erat sit amet turpis
+        viverra rhoncus sit amet nec magna. Donec lacinia ligula at libero volutpat volutpat nec nec
+        tortor.
+    </string>
+<string name="alert_dialog_permisson_windowmanager">
+    السماح للنطبيق بالظهور امام التطبيقات الاخرى
+</string>
+    <string name="str_delete">حذف</string>
+    <string name="str_cancel">الغاء</string>
+    <string name="str_ok">موافق</string>
+    <string name="action_share">Share</string>
+    <string name="action_reply">Reply</string>
+
+
+
+    <string name="Do_you_want_to_delete_the_source_file">هل تريد حذف الملف المصدر</string>
+    <string name="Do_you_want_to_delete_the_file">هل تريد حذف هذا الملف؟</string>
+    <string name="ad_attribution">Ad</string>
+</resources>

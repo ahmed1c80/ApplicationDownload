@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "829737257781",
+    "firebase_url": "https://social-media-download.firebaseio.com",
+    "project_id": "social-media-download",
+    "storage_bucket": "social-media-download.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:829737257781:android:02f3d020b0c3908f7f5a7c",
+        "android_client_info": {
+          "package_name": "com.edg_tech.facebook.whatsapp.instagram.twitter.free"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "829737257781-p8hqp308i3b3kqhqppp7htgq70im19or.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9Cka8RlHmZoe754SS6zgt5RU5vwM9Gew"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "829737257781-p8hqp308i3b3kqhqppp7htgq70im19or.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

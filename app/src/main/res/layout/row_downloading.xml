@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/lay_post_color"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+
+            <RelativeLayout
+                android:layout_width="66.0dip"
+                android:orientation="horizontal"
+                android:layout_height="66.0dip"
+                android:gravity="center">
+
+                <ImageView
+
+                    android:layout_width="40.0dip"
+                    android:layout_height="40.0dip"
+                    android:id="@+id/img"
+                    android:src="@drawable/ic_video_player"
+                    android:radius="42.0dip"
+                    android:scaleType="centerCrop"
+                    android:layout_gravity="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="A"/>
+
+
+            </RelativeLayout>
+
+
+        <LinearLayout
+            android:id="@+id/lay_btn_center"
+            android:layout_weight="1"
+            android:layout_margin="5sp"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:fontFamily="@font/kufi"
+                android:textSize="10.0dip"
+                android:gravity="left|center"
+                android:gradientRadius="10"
+                android:id="@+id/txt_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textStyle="bold"/>
+
+            <TextView
+                android:fontFamily="@font/kufi"
+                android:textSize="7.0dip"
+                android:gravity="left"
+                android:gradientRadius="10"
+                android:id="@+id/txt_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="#AEA3A3"/>
+
+
+
+
+
+            <LinearLayout
+                android:layout_margin="5sp"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+<ProgressBar
+    android:progress="52"
+    android:indeterminateTint="@color/colorPrimaryDark"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+    android:id="@+id/prog_download"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:padding="5sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="0">
+                     <ImageView
+android:visibility="gone"
+                android:src="@drawable/ic_pause_button"
+                android:id="@+id/img_download"
+                android:layout_width="30dip"
+                android:layout_height="30dip"/>
+
+            <ProgressBar
+                android:indeterminateTint="@color/colorPrimary"
+                android:id="@+id/prog_wite"
+                android:layout_width="30dip"
+                android:layout_height="30dip" />
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:padding="5sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_weight="0">
+    <TextView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_size"
+        android:text=""
+        ></TextView>
+    <ImageView
+        android:id="@+id/img_menu"
+        android:layout_weight="0"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/ic_menu_more"
+        ></ImageView>
+    </LinearLayout>
+    <View
+        android:gravity="left"
+        android:background="#DFDFDF"
+        android:layout_width="match_parent"
+        android:layout_height="0.1dip"
+        android:text="ghsb"
+        android:layout_marginLeft="22dp"
+        android:layout_marginRight="24dp"/>
+
+</LinearLayout>
+
